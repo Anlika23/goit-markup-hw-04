@@ -273,7 +273,7 @@ button {
     gap: 24px;
 }
 
-.social-list-link {
+.social-list-link, .footer-social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -389,4 +389,9 @@ button {
 .foter-social-list {
     display: flex;
     gap: 16px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #31d0aa;
 }
